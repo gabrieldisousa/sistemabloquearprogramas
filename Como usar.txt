@@ -1,0 +1,16 @@
+Primeiro abrimos o arquivo do servidor e acessamos pelo http local ou do IP.
+
+Após isso, executamos o arquivo do cliente na máquina que queremos bloquear o acesso do Windows.
+
+na interface web, temos que ir em grupos, criar o nome do grupo desejado;
+clicamos para editar e adicionamos o range do IP.
+podemos adicionar na seguinte forma:
+192.168.1.1, 192.168.1.1/24, 192.168.1.1-192.168.1.32.
+(por IP único, com CIDR ou até mesmo selecionar do IP inicial até o final.) 
+
+depois clicar na aba de palavras, selecione o grupo que foi configurado e digite a palavra do processo que queira bloquear, exemplo:
+chrome
+calc
+ele irá bloquear todos processos com nome do chrome e da calculadora.
+
+podemos deixar os arquivos ocultos editando o arquivo para .pyw
